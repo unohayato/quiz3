@@ -16,7 +16,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:rgba(255, 255, 255, 0.5);
+  background-image: url(./images/スクリーンショット\ 2022-09-07\ 2.24.55.png);
+  /*background-color:rgba(255, 255, 255, 0.5);*/
   overflow: hidden;
   min-height: 100vh;
   min-width: 100vh;
@@ -64,7 +65,7 @@ body::after {
   height: 15%;
   border-radius: 15px;
   box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(10px); 
   backdrop-filter: blur(10px);
 
@@ -138,7 +139,7 @@ body::after {
 
   border-radius: 15px;
   box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(10px); 
   backdrop-filter: blur(10px);
 
@@ -171,7 +172,7 @@ body::after {
 
   border-radius: 15px;
   box-shadow: 20px 20px 20px 50px rgba( 0, 0 , 0, 0.1);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   -webkit-backdrop-filter: blur(10px); 
   backdrop-filter: blur(10px);
 
@@ -204,7 +205,7 @@ body::after {
 
   border-radius: 15px;
   box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(10px); 
   backdrop-filter: blur(5px);
 
@@ -248,7 +249,7 @@ body::after {
 
   border-radius: 15px;
   box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(10px); 
   backdrop-filter: blur(5px);
 
@@ -308,7 +309,13 @@ body::after {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  border-radius: 15px;
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px); 
+  backdrop-filter: blur(5px);
   height: 10%;
+  
 
 
 }
